@@ -1,0 +1,139 @@
+/*欢迎页*/
+@-webkit-keyframes tree {
+    100%
+    {
+        -webkit-transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes tree {
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes shake {
+    0%
+    {
+        -webkit-transform:rotate(-50deg);
+    }
+    10%
+    {
+        -webkit-transform:rotate(45deg);
+    }
+    20%
+    {
+        -webkit-transform:rotate(-40deg);
+    }
+    30%
+    {
+        -webkit-transform:rotate(35deg);
+    }
+    40%
+    {
+        -webkit-transform:rotate(-30deg);
+    }
+    50%
+    {
+        -webkit-transform:rotate(25deg);
+    }
+    60%
+    {
+        -webkit-transform:rotate(-20deg);
+    }
+    70%
+    {
+        -webkit-transform:rotate(15deg);
+    }
+    80%
+    {
+        -webkit-transform:rotate(-10deg);
+    }
+    90%
+    {
+        -webkit-transform:rotate(5deg);
+    }
+    100%
+    {
+        -webkit-transform:rotate(0deg);
+    }
+}
+@keyframes shake {
+    0%
+    {
+        -webkit-transform:rotate(-50deg);
+    }
+    10%
+    {
+        -webkit-transform:rotate(45deg);
+    }
+    20%
+    {
+        -webkit-transform:rotate(-40deg);
+    }
+    30%
+    {
+        -webkit-transform:rotate(35deg);
+    }
+    40%
+    {
+        -webkit-transform:rotate(-30deg);
+    }
+    50%
+    {
+        -webkit-transform:rotate(25deg);
+    }
+    60%
+    {
+        -webkit-transform:rotate(-20deg);
+    }
+    70%
+    {
+        -webkit-transform:rotate(15deg);
+    }
+    80%
+    {
+        -webkit-transform:rotate(-10deg);
+    }
+    90%
+    {
+        -webkit-transform:rotate(5deg);
+    }
+    100%
+    {
+        -webkit-transform:rotate(0deg);
+    }
+}
+
+@-webkit-keyframes cloud{
+    0%
+    {
+        -webkit-transform: translateX(0px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(50px);
+    }
+}
+@keyframes cloud{
+    0%
+    {
+        transform: translateX(0px);
+    }
+    100%
+    {
+        transform: translateX(50px);
+    }
+}
+/*新闻线索*/
+@-webkit-keyframes newsBtn {
+    0%{
+        -webkit-transform: scale(0);
+        opacity: 0.1;
+    }
+    100%{
+        -webkit-transform: scale(1.3);
+    }
+}
